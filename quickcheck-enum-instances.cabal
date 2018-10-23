@@ -3,7 +3,8 @@ name: quickcheck-enum-instances
 version: 0.1.0.0
 description:
   Instances of the `Arbitrary` typeclass for all of the types
-  in `enum-types`.
+  in `enum-types`. These are orphan instances, so this should
+  only be used in test suites.
 homepage: https://github.com/andrewthad/quickcheck-enum-instances
 bug-reports: https://github.com/andrewthad/quickcheck-enum-instances/issues
 author: Andrew Martin
@@ -13,6 +14,8 @@ license: BSD3
 license-file: LICENSE
 build-type: Simple
 extra-source-files: README.md
+category: Testing
+synopsis: arbitrary instances for small enum types
 
 source-repository head
   type: git
